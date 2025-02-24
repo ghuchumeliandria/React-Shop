@@ -1,14 +1,13 @@
 import React from "react";
 import Header from "../../__molecules/Header/Header";
-import { useState } from "react";
-function MainContainer(){
+import ShopContent from "../ShopContent/ShopContent";
 
-    const [body,setBody] = useState("bg-transparent")
+function MainContainer(){
     return(
         <>
-        <div className="py-6.5 px-5 max-sm:py-5 ">
-            <div className={`absolute top-0 left-0 right-0 bottom-0 z-0 ${body}`}></div>
-            <Header setBody={setBody} body={body}/>
+        <div className="py-6.5 px-6 max-sm:py-5 z-40 flex flex-col gap-[90px] w-full max-w-[1110px] m-auto ">
+            <Header />
+            <ShopContent />
         </div>
         </>
     )

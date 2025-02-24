@@ -3,6 +3,22 @@
     box-sizing: border-box;
     transition: 0.7s;
 }
-@theme{
-    --breakpoint-tb : 400px
+
+@font-face {
+  font-family: "KumbLight";
+  src: url(./Fonts/static/KumbhSans-Light.ttf);
+  font-family: "KumbBold";
+  src: url(./Fonts/static/KumbhSans-Bold.ttf);
 }
+@theme{
+    --breakpoint-tb : 400px;
+    --color-mainorange : #FF7E1B;
+    --color-Pgrey : #69707D;
+    --shadow-box : 0px 20px 50px -20px rgba(29, 32, 38, 0.50);
+    --font-KumbhLight : "KumbhLight";
+    --font-KumbhBold : "KumbBold";
+}
+
+
+
+/* SWIPER */
