@@ -1,7 +1,10 @@
 @import "tailwindcss";
 *{
     box-sizing: border-box;
-    transition: 0.7s;
+    /* transition: 0.7s; */
+  }
+#root{
+   overflow-x: hidden;
 }
 
 @font-face {
